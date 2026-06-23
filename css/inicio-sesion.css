@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.conatiner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vh;
+    height: 75px;
+    padding: 0px 20px 0px 40px;
+    box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conatiner-header > h1{
+    color: black;
+}
+
+.container-opciones{
+    display: flex;
+    gap: 20px;
+}
+
+.boton-opciones{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.btn-especial{
+    background-color: #1327be;
+    color: white;
+}
+
+
+
+
+
+.main{
+    display: flex;
+    min-width: 100vh;
+    height: 92vh;
+}
+
+.section-img{
+    height: 100%;
+    width: 50%;
+}
+
+.section-img > img{
+    min-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-formualrio{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.contenedor-titulo{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-titulo > h3 {
+    font-size: 30px;
+}
+
+.contenedor-campo{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 5px;
+}
+
+.contenedor-campo > input{
+    height: 30px;
+    padding-left: 10px;
+}
+
+.contenedor-boton{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-boton > button{
+    height: 50px;
+    width: 250px;
+    background-color: #1327be;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+b{
+    color: #0066ff;
+}
+
+.formulario > p{
+    text-align: center;
+}
